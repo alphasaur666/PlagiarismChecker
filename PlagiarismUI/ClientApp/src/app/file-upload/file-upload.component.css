@@ -1,0 +1,75 @@
+.drop-zone{
+  min-height: 60px;
+  max-width: auto;
+  border: 1px solid grey;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#name{
+  min-width: 600px;
+  max-width: 600px;
+}
+
+#remove{
+  min-width: 50px;
+  max-width: 50px;
+}
+
+.upload{
+  font-weight:bold;
+  color:#28a745;
+  text-align: center;
+}
+
+.progress{
+  color:#18beff;
+  font-weight:bold;
+  text-align: center;
+}
+
+.failed{
+  font-weight:bold;
+  color:#ee2b2b;
+  text-align: center;
+}
+
+/* canvas {
+  max-width: 100%;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABmJLR0QAkwCTAJP5tiLoAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goVFxMCXx/9uAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAKUlEQVQY02OcPHnyfwY04OTkhC7EwMRAJBhAhYxXr17F8My+ffuGpGcA6xQJSXdOZ30AAAAASUVORK5CYII=);
+} */
+/** Every canvas can only get half of the screen */
+
+div.canvas_container {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+/**The inner canvas container should center the other elements **/
+
+div.canvas_container div.canvas_wrap {
+  position: relative;
+  height: 100%;
+  display: inline-block;
+
+
+  /*vertical-align: middle; */
+}
+div.canvas_container canvas {
+  display: block;
+  /*position:absolute;*/
+  top: 0px;
+  left: 0px;
+}
+/**This div should be centered**/
+
+div.canvas_container div.first {
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
