@@ -1,2 +1,4 @@
 # ComputerScienceLicense---PlagiarismChecker
-To be implemented
+
+
+Detect similarity in documents using GloVeTfIdf + RoBERTa + BERT
