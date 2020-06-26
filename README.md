@@ -10,6 +10,3 @@ https://public.ukp.informatik.tu-darmstadt.de/reimers/embeddings/wikipedia_doc_f
 Get dataset using python get_data.py.
 
 Make sure u get tensorflow, scikit learn, numpy, etc.
-
-
-
