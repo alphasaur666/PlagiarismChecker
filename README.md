@@ -11,4 +11,4 @@ Get dataset using python get_data.py.
 
 Make sure u get tensorflow, scikit learn, numpy, etc.
 
-Lot of thanks goes to UPK Lab, for providing the training of the models!
+Lot of thanks goes to UKP Lab, for providing the training of the models!
